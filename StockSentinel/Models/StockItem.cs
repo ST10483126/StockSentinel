@@ -12,6 +12,8 @@ namespace StockSentinel.Models
         public int Quantity { get; set; }
         public decimal CostPrice { get; set; }
         public DateTime ExpiryDate { get; set; }
+        public Category? Category { get; set; }
+        public ICollection<StockBatch> Batches { get; set; } = new List<StockBatch>();
 
         public decimal TotalValue => Quantity * CostPrice;
 
