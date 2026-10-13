@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\StockSentinel\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|c:\\users\\administrator\\source\\repos\\stocksentinel\\stocksentinel\\models\\stockbatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|solutionrelative:stocksentinel\\models\\stockbatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StockBatch.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StockSentinel\\StockSentinel\\Models\\StockBatch.cs",
+              "RelativeDocumentMoniker": "StockSentinel\\Models\\StockBatch.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\StockSentinel\\StockSentinel\\Models\\StockBatch.cs",
+              "RelativeToolTip": "StockSentinel\\Models\\StockBatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:40:46.317Z",
+              "EditorCaption": ""
             }
           ]
         }
