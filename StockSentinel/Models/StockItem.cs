@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace StockSentinel.Models
 {
@@ -12,12 +13,14 @@ namespace StockSentinel.Models
         public decimal CostPrice { get; set; }
         public DateTime ExpiryDate { get; set; }
 
-        // Navigation property for EF Core
+        // Navigation properties for EF Core
         public Category? Category { get; set; }
         public ICollection<StockBatch> Batches { get; set; } = new List<StockBatch>();
 
+        // Calculated properties
         public decimal TotalValue => Quantity * CostPrice;
 
+        // Helper methods
         public bool IsExpiringSoon(int days = 30) => ExpiryDate <= DateTime.Now.AddDays(days);
         public bool IsExpired() => ExpiryDate <= DateTime.Now;
     }
