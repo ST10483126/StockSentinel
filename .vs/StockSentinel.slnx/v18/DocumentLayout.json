@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\patrickk\\source\\repos\\StockSentinel\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|c:\\users\\patrickk\\source\\repos\\stocksentinel\\stocksentinel\\data\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|solutionrelative:stocksentinel\\data\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|c:\\users\\patrickk\\source\\repos\\stocksentinel\\stocksentinel\\models\\stockitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|solutionrelative:stocksentinel\\models\\stockitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|c:\\users\\patrickk\\source\\repos\\stocksentinel\\stocksentinel\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|solutionrelative:stocksentinel\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|c:\\users\\patrickk\\source\\repos\\stocksentinel\\stocksentinel\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|solutionrelative:stocksentinel\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|c:\\users\\patrickk\\source\\repos\\stocksentinel\\stocksentinel\\models\\stockbatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|solutionrelative:stocksentinel\\models\\stockbatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|c:\\users\\patrickk\\source\\repos\\stocksentinel\\stocksentinel\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|solutionrelative:stocksentinel\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|c:\\users\\patrickk\\source\\repos\\stocksentinel\\stocksentinel\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E313BDD-1BA3-D418-B7D6-BF6F9557520B}|StockSentinel\\StockSentinel.csproj|solutionrelative:stocksentinel\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "StockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\patrickk\\source\\repos\\StockSentinel\\StockSentinel\\Data\\StockRepository.cs",
+              "RelativeDocumentMoniker": "StockSentinel\\Data\\StockRepository.cs",
+              "ToolTip": "C:\\Users\\patrickk\\source\\repos\\StockSentinel\\StockSentinel\\Data\\StockRepository.cs",
+              "RelativeToolTip": "StockSentinel\\Data\\StockRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T17:56:56.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DatabaseContext.cs",
               "DocumentMoniker": "C:\\Users\\patrickk\\source\\repos\\StockSentinel\\StockSentinel\\Data\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "StockSentinel\\Data\\DatabaseContext.cs",
@@ -42,44 +59,43 @@
               "RelativeToolTip": "StockSentinel\\Data\\DatabaseContext.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAcwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T11:37:05.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T11:37:05.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\patrickk\\source\\repos\\StockSentinel\\StockSentinel\\Models\\Category.cs",
               "RelativeDocumentMoniker": "StockSentinel\\Models\\Category.cs",
               "ToolTip": "C:\\Users\\patrickk\\source\\repos\\StockSentinel\\StockSentinel\\Models\\Category.cs",
               "RelativeToolTip": "StockSentinel\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-27T10:35:33.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StockItem.cs",
               "DocumentMoniker": "C:\\Users\\patrickk\\source\\repos\\StockSentinel\\StockSentinel\\Models\\StockItem.cs",
               "RelativeDocumentMoniker": "StockSentinel\\Models\\StockItem.cs",
               "ToolTip": "C:\\Users\\patrickk\\source\\repos\\StockSentinel\\StockSentinel\\Models\\StockItem.cs",
               "RelativeToolTip": "StockSentinel\\Models\\StockItem.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBUAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAywBEAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-27T10:35:27.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StockBatch.cs",
               "DocumentMoniker": "C:\\Users\\patrickk\\source\\repos\\StockSentinel\\StockSentinel\\Models\\StockBatch.cs",
               "RelativeDocumentMoniker": "StockSentinel\\Models\\StockBatch.cs",
               "ToolTip": "C:\\Users\\patrickk\\source\\repos\\StockSentinel\\StockSentinel\\Models\\StockBatch.cs",
               "RelativeToolTip": "StockSentinel\\Models\\StockBatch.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T13:40:46.317Z",
               "EditorCaption": ""
