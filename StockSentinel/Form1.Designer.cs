@@ -28,11 +28,33 @@ partial class Form1
     /// </summary>
     private void InitializeComponent()
     {
-        components = new System.ComponentModel.Container();
+        dataGridView1 = new DataGridView();
+        ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+        SuspendLayout();
+        // 
+        // dataGridView1
+        // 
+        dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+        dataGridView1.Dock = DockStyle.Bottom;
+        dataGridView1.Location = new Point(0, 274);
+        dataGridView1.Name = "dataGridView1";
+        dataGridView1.RowHeadersWidth = 102;
+        dataGridView1.Size = new Size(1403, 375);
+        dataGridView1.TabIndex = 0;
+        // 
+        // Form1
+        // 
+        AutoScaleDimensions = new SizeF(17F, 41F);
         AutoScaleMode = AutoScaleMode.Font;
-        ClientSize = new Size(800, 450);
-        Text = "Form1";
+        ClientSize = new Size(1403, 649);
+        Controls.Add(dataGridView1);
+        Name = "Form1";
+        Text = "StockSentinel - Dashboard";
+        ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+        ResumeLayout(false);
     }
 
     #endregion
+
+    private DataGridView dataGridView1;
 }
