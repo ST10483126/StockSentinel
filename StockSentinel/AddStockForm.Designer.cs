@@ -36,7 +36,7 @@
             txtName = new TextBox();
             txtQuantity = new TextBox();
             txtCostPrice = new TextBox();
-            dtmExpiryDate = new DateTimePicker();
+            dtpExpiryDate = new DateTimePicker();
             cmbCategory = new ComboBox();
             btnSave = new Button();
             btnCancel = new Button();
@@ -108,12 +108,12 @@
             txtCostPrice.Size = new Size(250, 47);
             txtCostPrice.TabIndex = 7;
             // 
-            // dtmExpiryDate
+            // dtpExpiryDate
             // 
-            dtmExpiryDate.Location = new Point(921, 110);
-            dtmExpiryDate.Name = "dtmExpiryDate";
-            dtmExpiryDate.Size = new Size(500, 47);
-            dtmExpiryDate.TabIndex = 8;
+            dtpExpiryDate.Location = new Point(921, 110);
+            dtpExpiryDate.Name = "dtpExpiryDate";
+            dtpExpiryDate.Size = new Size(500, 47);
+            dtpExpiryDate.TabIndex = 8;
             // 
             // cmbCategory
             // 
@@ -131,6 +131,7 @@
             btnSave.TabIndex = 10;
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += btnSave_Click;
             // 
             // btnCancel
             // 
@@ -140,6 +141,7 @@
             btnCancel.TabIndex = 11;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // AddStockForm
             // 
@@ -149,7 +151,7 @@
             Controls.Add(btnCancel);
             Controls.Add(btnSave);
             Controls.Add(cmbCategory);
-            Controls.Add(dtmExpiryDate);
+            Controls.Add(dtpExpiryDate);
             Controls.Add(txtCostPrice);
             Controls.Add(txtQuantity);
             Controls.Add(txtName);
@@ -175,7 +177,7 @@
         private TextBox txtName;
         private TextBox txtQuantity;
         private TextBox txtCostPrice;
-        private DateTimePicker dtmExpiryDate;
+        private DateTimePicker dtpExpiryDate;
         private ComboBox cmbCategory;
         private Button btnSave;
         private Button btnCancel;

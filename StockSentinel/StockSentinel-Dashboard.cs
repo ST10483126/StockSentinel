@@ -74,9 +74,18 @@ public partial class Form1 : Form
         }
     }
 
-    private async void btnAdditems_Click(object sender, EventArgs e)
+        private async void btnAdditems_Click(object sender, EventArgs e)
     {
-        MessageBox.Show("Add Item form will open here next.", "Coming Soon");
+        // Open the AddStockForm
+        using (var addForm = new AddStockForm())
+        {
+            // If the user clicks Save in the new form, it returns DialogResult.OK
+            if (addForm.ShowDialog() == DialogResult.OK)
+            {
+                // Refresh the grid immediately to show the new item!
+                await LoadDataAsync();
+            }
+        }
     }
 
     // Delete Button Click
