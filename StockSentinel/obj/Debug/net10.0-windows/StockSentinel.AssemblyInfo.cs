@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StockSentinel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b45b2295ae668ec9787c8c4e162e59a702fdbc50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70befa88048b52b3d10e749c7be8ef14b40ae1f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("StockSentinel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StockSentinel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

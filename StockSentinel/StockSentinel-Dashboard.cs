@@ -40,7 +40,8 @@ public partial class Form1 : Form
         finally
         {
             // 5. Resets the UI when finished (even if it failed)
-            this.Cursor = Cursors.Default;           
+            this.Cursor = Cursors.Default;
+            this.Text = "StockSentinel Dashboard";
         }
     }
 
