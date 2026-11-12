@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using Microsoft.EntityFrameworkCore;
 using StockSentinel.Models;
 
 namespace StockSentinel.Data
@@ -13,14 +14,22 @@ namespace StockSentinel.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-            {                
-                optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=StockSentinelDb;Trusted_Connection=True;MultipleActiveResultSets=true");
+            {
+                optionsBuilder.UseSqlServer(
+                    @"Server=(localdb)\MSSQLLocalDB;Database=StockSentinelDb;Trusted_Connection=True;MultipleActiveResultSets=true;Connect Timeout=90",
+                    sqlOptions => sqlOptions.EnableRetryOnFailure(
+                        maxRetryCount: 5,
+                        maxRetryDelay: TimeSpan.FromSeconds(10),
+                        errorNumbersToAdd: null
+                    )
+                );
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<StockItem>()
                 .HasMany(s => s.Batches)
                 .WithOne(b => b.StockItem)
