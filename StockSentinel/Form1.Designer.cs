@@ -28,33 +28,85 @@ partial class Form1
     /// </summary>
     private void InitializeComponent()
     {
-        dataGridView1 = new DataGridView();
-        ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+        dgvStock = new DataGridView();
+        panel1 = new Panel();
+        btnRefresh = new Button();
+        btnAdditems = new Button();
+        btnDelete = new Button();
+        ((System.ComponentModel.ISupportInitialize)dgvStock).BeginInit();
+        panel1.SuspendLayout();
         SuspendLayout();
         // 
-        // dataGridView1
+        // dgvStock
         // 
-        dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-        dataGridView1.Dock = DockStyle.Bottom;
-        dataGridView1.Location = new Point(0, 274);
-        dataGridView1.Name = "dataGridView1";
-        dataGridView1.RowHeadersWidth = 102;
-        dataGridView1.Size = new Size(1403, 375);
-        dataGridView1.TabIndex = 0;
+        dgvStock.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+        dgvStock.Dock = DockStyle.Bottom;
+        dgvStock.Location = new Point(0, 451);
+        dgvStock.Name = "dgvStock";
+        dgvStock.RowHeadersWidth = 102;
+        dgvStock.Size = new Size(1624, 313);
+        dgvStock.TabIndex = 0;
+        // 
+        // panel1
+        // 
+        panel1.Controls.Add(btnDelete);
+        panel1.Controls.Add(btnAdditems);
+        panel1.Controls.Add(btnRefresh);
+        panel1.Dock = DockStyle.Top;
+        panel1.Location = new Point(0, 0);
+        panel1.Name = "panel1";
+        panel1.Size = new Size(1624, 95);
+        panel1.TabIndex = 1;
+        // 
+        // btnRefresh
+        // 
+        btnRefresh.Location = new Point(1424, 22);
+        btnRefresh.Name = "btnRefresh";
+        btnRefresh.Size = new Size(188, 58);
+        btnRefresh.TabIndex = 0;
+        btnRefresh.Text = "Refresh";
+        btnRefresh.UseVisualStyleBackColor = true;
+        btnRefresh.Click += btnRefresh_Click;
+        // 
+        // btnAdditems
+        // 
+        btnAdditems.Location = new Point(22, 22);
+        btnAdditems.Name = "btnAdditems";
+        btnAdditems.Size = new Size(188, 58);
+        btnAdditems.TabIndex = 1;
+        btnAdditems.Text = "Add item";
+        btnAdditems.UseVisualStyleBackColor = true;
+        btnAdditems.Click += btnAdditems_Click;
+        // 
+        // btnDelete
+        // 
+        btnDelete.Location = new Point(282, 22);
+        btnDelete.Name = "btnDelete";
+        btnDelete.Size = new Size(188, 58);
+        btnDelete.TabIndex = 2;
+        btnDelete.Text = "Delete Selected";
+        btnDelete.UseVisualStyleBackColor = true;
+        btnDelete.Click += btnDelete_Click;
         // 
         // Form1
         // 
         AutoScaleDimensions = new SizeF(17F, 41F);
         AutoScaleMode = AutoScaleMode.Font;
-        ClientSize = new Size(1403, 649);
-        Controls.Add(dataGridView1);
+        ClientSize = new Size(1624, 764);
+        Controls.Add(panel1);
+        Controls.Add(dgvStock);
         Name = "Form1";
         Text = "StockSentinel - Dashboard";
-        ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+        ((System.ComponentModel.ISupportInitialize)dgvStock).EndInit();
+        panel1.ResumeLayout(false);
         ResumeLayout(false);
     }
 
     #endregion
 
-    private DataGridView dataGridView1;
+    private DataGridView dgvStock;
+    private Panel panel1;
+    private Button btnAdditems;
+    private Button btnRefresh;
+    private Button btnDelete;
 }
